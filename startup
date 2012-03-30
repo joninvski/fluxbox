@@ -18,11 +18,13 @@ xmodmap "/home/jtrindade/.Xmodmap"
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
 
-fbsetbg /home/jtrindade/wallpaper.jpg
-
 
 gnome-settings-daemon &
 gnome-sound-applet &
+gnome-time-tracker &
+
+fbsetbg /home/jtrindade/wallpaper.jpg
+
 exec fluxbox
 
 

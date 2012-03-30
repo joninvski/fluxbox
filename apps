@@ -2,3 +2,14 @@
   [Position]	(WINCENTER)	{0 0}
   [Layer]	{2}
 [end]
+[app] (name=.*[Cc]hrome)
+  [Position]	(WINCENTER)	{0 0}
+  [Workspace]	{0}
+[end]
+
+[app] (name=.*[Tt]erm.*)
+  [Position]	(WINCENTER)	{0 0}
+  [Workspace]	{1}
+  [Jump]        {yes}
+[end]
+

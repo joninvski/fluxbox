@@ -4,7 +4,7 @@
 [end]
 [app] (name=.*[Cc]hrome)
   [Position]	(WINCENTER)	{0 0}
-  [Workspace]	{0}
+  [Workspace]	{2}
 [end]
 
 [app] (name=.*[Tt]erm.*)

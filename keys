@@ -93,7 +93,8 @@ Control Mod1 Delete :Exit
 
 # change to previous/next workspace
 Control Mod1 Left :PrevWorkspace
-Control Mod1 Right :NextWorkspace
+Control Mod1 h :PrevWorkspace
+Control Mod1 l :NextWorkspace
 
 # send the current window to previous/next workspace
 # Mod4 Left :SendToPrevWorkspace
